@@ -1,15 +1,14 @@
 Auth:
-  project_token: "1720db89-e057-4f27-aff4-00917961b3b1"
-  customer_token:  "1f3dc7b3-cb4e-4eb9-b5ee-c780947f12e3" #devtokens
-  
+  project_token: b5009f8c-7ec5-4895-a8c5-6e04455042c7
+  customer_token: df0d4185-7142-4ce1-999e-25eb8a76e80a
 SCA:
   language: "codeql" 
 
 SAST:
   language: "codeql" 
 
-DAST:
-  type: "WEB" ## API, WEB, WEB-ADV
-  URL: "http://devapi.boman.ai" 
+# DAST:
+#   type: "WEB" ## API, WEB, WEB-ADV
+#   URL: "http://devapi.boman.ai" 
 
 Secret_Scan: True
